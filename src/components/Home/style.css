@@ -1,0 +1,10 @@
+.CardsDiv {
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.CardsDiv.Content {
+    width: 1200px;
+    margin: 0 auto;
+}
