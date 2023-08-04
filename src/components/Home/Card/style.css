@@ -29,7 +29,8 @@
     justify-content: center;
 }
 .Card .Description .AddToFav {
-    background-color: blue;
+    background-color: black;
+    font-weight: 900;
     color: white;
     position: absolute;
     top: 0;

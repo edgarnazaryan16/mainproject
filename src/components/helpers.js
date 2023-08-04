@@ -42,3 +42,12 @@ export const GetingCardsFromLocalStorage = () => {
         return [];
     }
 }
+
+export const GetingFavouritesFromLocalStorage = () => {
+    if (localStorage.getItem("FavouritesArray")) {
+        return JSON.parse(localStorage.getItem("FavouritesArray"));
+    } else {
+        localStorage.setItem('FavouritesArray', JSON.stringify([]));
+        return [];
+    }
+}

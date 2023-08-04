@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className="Header">
             <div className="Content">
-                <img className="img" src={`${imageAPI}/img/logo2.png`}/>
+                <img className="img" src={`${imageAPI}/img/logo2.png`} alt="Something goes wrong"/>
                 <div className="nav">
                     {
                         headerData.map(({path, name}) => {
